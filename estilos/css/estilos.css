@@ -18,7 +18,7 @@ a {
 
 
 nav {
-
+    
     background: rgb(239, 169, 220);
     background: -moz-radial-gradient(circle, rgba(239, 169, 220, 1) 50%, rgba(175, 109, 158, 1) 92%, rgba(175, 109, 158, 1) 97%);
     background: -webkit-radial-gradient(circle, rgba(239, 169, 220, 1) 50%, rgba(175, 109, 158, 1) 92%, rgba(175, 109, 158, 1) 97%);
@@ -26,6 +26,7 @@ nav {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efa9dc", endColorstr="#af6d9e", GradientType=1);
 
 }
+
 
 
 .form-buscar{
@@ -56,6 +57,7 @@ nav {
 .header__list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .header__item {
@@ -82,6 +84,8 @@ nav {
     background-position: center;
     font-size: 1 rem;
     align-items: center;
+    flex-wrap: wrap;
+   
 
 }
 
@@ -129,8 +133,6 @@ nav {
     text-align: center;
     margin: 10px;
 
-
-
 }
 
 
@@ -160,6 +162,7 @@ nav {
 .nosotros__img {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -229,8 +232,9 @@ nav {
 
 .map {
 
-    text-align: center;
-    margin: 100px;
+   display: flex;
+   justify-content: center;
+   width: 100%;
 }
 
 .info-contacto{
@@ -261,6 +265,7 @@ nav {
     margin: 50px 50px;
     padding: 20px;
     border: 3px solid #b39f8d;
+    flex-wrap: wrap;
 
 }
 
@@ -293,16 +298,11 @@ nav {
 .img-container {
     padding: 20px;
     margin: auto;
-
-
-}
-
-.form-img img {
-    width: 75%;
-
-
+    
 
 }
+
+
 
 .form textarea {
     min-height: 140px;
@@ -354,7 +354,7 @@ nav {
     }
     
 
-footer {
+footer{
     background-color: #efa8dc;
 
 }
@@ -408,6 +408,8 @@ footer {
     background-color: #ce8abc;
     color: #905080;
     border: 2px solid #ce8abc;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -419,5 +421,4 @@ footer {
 .p-copyright {
     margin: 20px;
 }
-
 
