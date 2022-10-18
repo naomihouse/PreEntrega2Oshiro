@@ -1,0 +1,416 @@
+/*img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    color: black;
+}
+
+
+nav {
+
+    background: rgb(239, 169, 220);
+    background: -moz-radial-gradient(circle, rgba(239, 169, 220, 1) 50%, rgba(175, 109, 158, 1) 92%, rgba(175, 109, 158, 1) 97%);
+    background: -webkit-radial-gradient(circle, rgba(239, 169, 220, 1) 50%, rgba(175, 109, 158, 1) 92%, rgba(175, 109, 158, 1) 97%);
+    background: radial-gradient(circle, rgba(239, 169, 220, 1) 50%, rgba(175, 109, 158, 1) 92%, rgba(175, 109, 158, 1) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efa9dc", endColorstr="#af6d9e", GradientType=1);
+
+}
+
+
+.form-buscar{
+    height: 50px;
+    border: 3px solid #b39f8d;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__foto {
+    max-width: 200px;
+    filter: invert();
+    margin: 30px;
+
+}
+
+
+.header__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__item {
+    font-size: 18px;
+    border: 2px solid #b39f8d;
+    ;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+
+
+.header__item:hover {
+    background-color: #ce8abc;
+    border: 2px solid #ce8abc;
+}
+
+.section__index {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url(../../img/paginalogo.jpg);
+    height: 80vh;
+    background-position: center;
+    font-size: 1 rem;
+    align-items: center;
+
+}
+
+.foto__section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.btn {
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #efa8dc;
+    border: 2px solid #b39f8d;
+
+}
+
+.btn:hover {
+    background-color: #905080;
+
+}
+
+
+.section__p {
+    font-size: 4rem;
+}
+
+.main__subtitulo {
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main__vinosdestacados {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+
+}
+
+
+.destacado {
+    text-align: center;
+    margin: 10px;
+
+
+
+}
+
+
+.destacado:hover {
+    border: 4px solid #905080;
+
+}
+
+.p-destacado {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btn-comprar {
+    background-color: #b39f8d;
+    border: 1px solid;
+    padding: 7px;
+
+
+}
+
+.btn-comprar:hover {
+    background-color: #ce8abc;
+}
+
+.nosotros__img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nosotros__titulo {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 3px solid #b39f8d;
+    background: rgb(227, 219, 213);
+    background: -moz-radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    background: radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3dbd5", endColorstr="#bcaa9a", GradientType=1);
+}
+
+.foto__nosotros {
+    margin: 50px;
+
+}
+
+.nosotros__p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 70px;
+    border: 3px solid #b39f8d;
+    background: rgb(227, 219, 213);
+    background: -moz-radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    background: radial-gradient(circle, rgba(227, 219, 213, 1) 19%, rgba(207, 195, 184, 1) 87%, rgba(200, 186, 173, 1) 99%, rgba(188, 170, 154, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3dbd5", endColorstr="#bcaa9a", GradientType=1);
+}
+
+.vinos__titulo {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 3px solid #b39f8d;
+
+
+}
+
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-columns: 100px;
+}
+
+
+.espumantes__titulo {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 3px solid #b39f8d;
+
+}
+
+
+.map {
+
+    text-align: center;
+    margin: 100px;
+}
+
+
+
+.contacto__msj {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px;
+    background-color: #efa8dc;
+    border: 3px solid #b39f8d;
+}
+
+.flex__container {
+    display: flex;
+    align-items: center;
+    flex-direction: wrap;
+    justify-content: center;
+    background: #efa8dc;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 3px solid #b39f8d;
+
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid #b39f8d;
+
+
+}
+
+.form-img {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    min-width: 300px;
+    max-width: 400px;
+
+}
+
+.img-container {
+    padding: 20px;
+    margin: auto;
+
+
+}
+
+.form-img img {
+    width: 75%;
+
+
+
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+[type="submit"]:hover {
+    background-color: #ce8abc;
+
+}
+
+.titulo-h2 {
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.section__compras {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.compras-titulo {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.compras-agregar {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+.btn-vc {
+    background-color: #b39f8d;
+    padding: 15px;
+
+
+}
+
+.btn-vc:hover {
+    background-color: #ce8abc;
+}
+
+.section-comprar{
+    margin: 80px;
+    }
+    
+
+footer {
+    background-color: #efa8dc;
+
+}
+
+.contenedor__footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo-footer {
+    margin: 30px;
+    font-size: 40px;
+
+}
+
+.div-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contacto {
+    font-size: 17px;
+    padding: 7px;
+
+
+}
+
+.footer-contacto:hover {
+    background-color: #ce8abc;
+    color: #905080;
+    border: 2px solid #ce8abc;
+
+}
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+
+}
+
+.redes-item {
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.redes-item:hover {
+    background-color: #ce8abc;
+    color: #905080;
+    border: 2px solid #ce8abc;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.p-copyright {
+    margin: 20px;
+}
+
+
