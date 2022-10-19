@@ -338,6 +338,18 @@ nav {
 
 }
 
+
+@media screen and (max-width: 420px){
+    .flex__container{
+      width: 100%;
+      margin-left:0px ;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+     
+    }
+    }
+
 .form {
     min-width: 400px;
     flex: 1;
